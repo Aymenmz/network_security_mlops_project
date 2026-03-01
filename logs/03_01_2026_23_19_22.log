@@ -1,0 +1,13 @@
+[ 2026-03-01 23:19:22,844 ] 13 root - INFO - Starting data ingestion
+[ 2026-03-01 23:19:27,799 ] 37 root - INFO -    having_IP_Address  URL_Length  Shortining_Service  ...  Links_pointing_to_page  Statistical_report  Result
+0                 -1           1                   1  ...                       1                  -1      -1
+1                  1           1                   1  ...                       1                   1      -1
+2                  1           0                   1  ...                       0                  -1      -1
+3                  1           0                   1  ...                      -1                   1      -1
+4                  1           0                  -1  ...                       1                   1       1
+
+[5 rows x 31 columns]
+[ 2026-03-01 23:19:27,806 ] 38 root - INFO - Exported 11055 records from MongoDB collection phishing_data
+[ 2026-03-01 23:19:27,831 ] 51 root - INFO - Data exported to feature store at artifacts/2026_03_01_23_19_22/data_ingestion/feature_store
+[ 2026-03-01 23:19:27,857 ] 65 root - INFO - Data split into train and test sets with ratio 0.2
+[ 2026-03-01 23:19:27,857 ] 15 root - INFO - Data ingestion artifact: DataIngestionArtifact(trained_file_path='artifacts/2026_03_01_23_19_22/data_ingestion/ingested/train.csv', testing_file_path='artifacts/2026_03_01_23_19_22/data_ingestion/ingested/test.csv')
